@@ -1,16 +1,17 @@
-# 📚 Books
+# 📚 Web Scraping Books 
+
  Projeto fictício. O site mencionado nesse projeto não é real. A inspiração para este projeto veio do [blog](https://medium.com/@meigarom/o-projeto-de-data-engineering-para-o-seu-portf%C3%B3lio-c186c7191823)📝 
  O link para o [site](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?resource=download)🔎 em que foi feito a coleta de dados.
 
 ## 🚀 Descrição do projeto 
 - Coleta de Dados:
-O código desenvolvido é responsável por extrair informações cruciais, incluindo títulos, preços, situações, quantidades, notas e códigos de produtos.
+O código desenvolvido em Python é responsável por extrair informações de um site que vende livros, incluindo títulos, preços, situações, quantidades, notas e códigos de produtos.
 
 - Armazenamento no Banco de Dados:
-Uma vez que os dados são coletados, eles são cuidadosamente organizados e armazenados em um banco de dados. 
+Uma vez que os dados são coletados, eles são cuidadosamente organizados e armazenados em um banco de dados Postgresql.
 
-- Cópia de Segurança em Formato CSV:
-Para garantir a preservação dos dados coletados e a rastreabilidade das informações, uma cópia é criada em um formato universalmente reconhecido: o arquivo CSV. Esse arquivo contém não apenas os dados da coleta, mas também a data e hora exatas em que os dados foram adquiridos.
+- Cópia em Formato CSV:
+Para garantir a preservação dos dados coletados e a rastreabilidade das informações, uma cópia é criada em um formato universalmente reconhecido: o arquivo CSV. Esse arquivo contém não apenas os dados da coleta, mas também em seu nome a data e hora exata em que os dados foram adquiridos.
 
 - Automação com Apache Airflow:
 A automação integral desse processo é alcançada por meio da plataforma Apache Airflow. Uma configuração é estabelecida dentro do Airflow para agendar a execução do código de coleta e armazenamento de dados em intervalos regulares. Com isso, é garantido que o processo ocorra automaticamente todos os dias, sempre no mesmo horário pré-determinado.
