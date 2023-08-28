@@ -3,7 +3,7 @@
 ## Projeto de Engenharia de Dados - Web Scraping e Automatização com Airflow
 
  Projeto fictício. O site mencionado nesse projeto não é real. A inspiração para este projeto veio do [blog](https://medium.com/@meigarom/o-projeto-de-data-engineering-para-o-seu-portf%C3%B3lio-c186c7191823)📝 
- O link para o [site](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?resource=download)🔎 em que foi feito a coleta de dados.
+ O link para o [site](https://books.toscrape.com/)🔎 em que foi feito a coleta de dados.
 
 ## 🚀 Descrição do projeto 
 - Coleta de Dados:
