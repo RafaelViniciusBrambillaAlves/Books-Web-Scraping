@@ -15,11 +15,11 @@ from psycopg2 import OperationalError
 def connect():
     try:
         conn = psycopg2.connect (
-            host = "26.189.184.161",
-            database = "books",
-            user = "postgres",
-            password = "root",
-            port = "5432"  
+            host = "",
+            database = "",
+            user = "",
+            password = "",
+            port = ""  
         )
         print("Conexao Bem-Sucedida")
         return conn
