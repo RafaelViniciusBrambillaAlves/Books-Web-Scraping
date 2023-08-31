@@ -23,7 +23,7 @@ dag = DAG(
 # Criação das tarefas
 web_scraping_task = PythonOperator(
     task_id='web_scraping_task',
-    python_callable=web_Scraping,  # Chamando a função correta: webScraping.webScraping
+    python_callable=web_Scraping, 
     dag=dag,
 )
 
@@ -35,13 +35,13 @@ def pass_df_to_insert_data_function(**kwargs):
 insert_data_task = PythonOperator(
     task_id='insert_data_task',
     python_callable=pass_df_to_insert_data_function,
-    provide_context=True,  # Isso permite passar o contexto para a função
+    provide_context=True,
     dag=dag,
 )
 
 save_to_csv_task = PythonOperator(
     task_id='save_to_csv_task',
-    python_callable=save_To_Csv,  # Chamando a função correta: saveToCsv.saveToCsv
+    python_callable=save_To_Csv, 
     dag=dag,
 )
 
