@@ -19,7 +19,6 @@ def web_Scraping():
     data = {'title':[], 'price':[], 'situation':[], 'quantity':[], 'score':[], 'code':[]}
     df = pd.DataFrame(data)
 
-
     #My User Agent no Google
     headers =   {
                 'User-Agent': ""
