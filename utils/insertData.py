@@ -1,8 +1,4 @@
 #Importando Bibliotecas
-import requests
-from bs4 import BeautifulSoup
-#Por conta da URL não ter um esquema (como "http://" ou "https://"), é necessário construir a URL completa
-from urllib.parse import urljoin
 #Pandas para melhor visualização dos dados 
 import pandas as pd 
 #Importando funcoes 
